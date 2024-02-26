@@ -1,0 +1,22 @@
+{pubssh:~/playground} tree
+.
+├── Makefile
+└── myprog1.cpp
+
+0 directories, 2 files
+{pubssh:~/playground} make myprog1 && ./myprog1
+g++ -Wall -Wextra -o myprog1 myprog1.cpp
+{pubssh:~/playground} tree
+.
+├── Makefile
+├── dir1
+│   └── file10
+├── dir2
+│   └── file20
+├── file1
+├── link1 -> dir2/file20
+├── myprog1
+└── myprog1.cpp
+
+2 directories, 7 files
+{pubssh:~/playground} 

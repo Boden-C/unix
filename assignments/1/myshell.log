@@ -1,0 +1,24 @@
+{pubssh:~/playground} make myshell && ./myshell.out
+g++ -Wall -Wextra -o myshell.out myshell.cpp
+ls -la ./cs3376
+Command: ls
+Options: -la
+Arguments: ./cs3376
+ls < junk.txt > output.txt
+Command: ls
+File Redirection: <
+File: junk.txt
+File Redirection: >
+File: output.txt
+ls | wc
+Command: ls
+Pipe
+Command: wc
+ls | sort | wc
+Command: ls
+Pipe
+Command: sort
+Pipe
+Command: wc
+exit
+{pubssh:~/playground} 

@@ -1,0 +1,18 @@
+{pubssh:~/playground}  tree
+.
+└── script1.sh
+
+0 directories, 1 file
+{pubssh:~/playground}  ./script1.sh 
+{pubssh:~/playground}  tree
+.
+├── dir1
+│   └── file10
+├── dir2
+│   └── file20
+├── file1
+├── link1 -> dir2/file20
+└── script1.sh
+
+2 directories, 5 files
+{pubssh:~/playground}  
